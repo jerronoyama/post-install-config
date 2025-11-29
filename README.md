@@ -181,13 +181,3 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 
-### 11. Validate Configuration
-
-- Go to the **End User Portal**: `http://localhost/osTicket/`
-- Start creating a new ticket and confirm:
-  - The configured **Help Topics** appear in the dropdown.
-- Log in as an agent and confirm:
-  - Departments, Teams, Roles, SLAs, Agents, and Users appear as configured.
-
-📸 *Screenshot: New ticket form showing Help Topics*  
-📸 *Screenshot: Agent view of tickets with SLA/Departments visible*
