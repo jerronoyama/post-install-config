@@ -174,9 +174,10 @@ This tutorial outlines the post-install configuration of the open-source help de
   - `Password Reset`
   - `Other`
 
-<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/43589fd3-5564-41ed-8d2a-a3a063c4c611" />
-
 <img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/688b2254-f6cb-4e9b-b5e9-5568c4aafdf4" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/29f6e010-4b33-4fb2-a45b-cf2e26c2f83f" />
+
 
 
 
