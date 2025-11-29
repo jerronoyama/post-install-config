@@ -36,8 +36,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Admin/Analyst Login Page: `http://localhost/osTicket/scp/login.php`
 - End User Portal: `http://localhost/osTicket/`
 
-📸 *Screenshot: osTicket agent login page (`/scp/login.php`)*  
-📸 *Screenshot: End user portal home page (`/osTicket/`)*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/a9648663-05a5-46f4-a947-649e06e5300d" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/daed1ee2-da7a-4e4a-82a6-18309d45783b" />
+
 
 
 ### 2. Understand Agent Panel vs Admin Panel
