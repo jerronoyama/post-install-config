@@ -63,8 +63,9 @@ This tutorial outlines the post-install configuration of the open-source help de
   - Name: `Supreme Admin`
   - Configure permissions as needed (full permissions for lab purposes).
 
-📸 *Screenshot: Roles list page*  
-📸 *Screenshot: Supreme Admin role permissions screen*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/4691e3f5-df55-4b04-b98f-47cc8cc1e826" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/4691e3f5-df55-4b04-b98f-47cc8cc1e826" />
 
 
 ### 4. Configure Departments (Ticket Visibility & Ownership)
