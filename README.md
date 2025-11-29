@@ -77,8 +77,10 @@ This tutorial outlines the post-install configuration of the open-source help de
   - Name: `SysAdmins`
   - Adjust visibility, email settings, and assignment settings as needed.
 
-📸 *Screenshot: Departments list page*  
-📸 *Screenshot: Creating SysAdmins department*
+<img width="1792" height="1120" alt="Screenshot 2025-11-28 at 6 51 01 PM" src="https://github.com/user-attachments/assets/a7c59930-95e2-4c5d-9152-657331317488" />
+ 
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/4ae1c529-df38-4e04-89ab-5c9a49f920a0" />
+
 
 
 ### 5. Configure Teams (Cross-Department Groups)
