@@ -65,7 +65,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/4691e3f5-df55-4b04-b98f-47cc8cc1e826" />
 
-<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/4691e3f5-df55-4b04-b98f-47cc8cc1e826" />
+<img width="1792" height="1120" alt="Screenshot 2025-11-28 at 6 48 25 PM" src="https://github.com/user-attachments/assets/1c5f8bf4-5287-46fc-9a28-296fe6de9e8d" />
+
 
 
 ### 4. Configure Departments (Ticket Visibility & Ownership)
