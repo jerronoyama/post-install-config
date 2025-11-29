@@ -103,7 +103,8 @@ This tutorial outlines the post-install configuration of the open-source help de
   - Review the setting for **"Require registration and login to create tickets"** or **"unregistered users can create tickets"**.
   - For the lab, configure according to the instructions (e.g., **registration required** or allow anyone depending on your scenario).
 
-📸 *Screenshot: User Settings page with ticket creation options*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/0881fdbb-bb26-4737-8669-f1d282f14960" />
+
 
 
 ### 7. Configure Agents (Help Desk Staff)
