@@ -89,10 +89,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Click **"Add New Team"**.
 - Create a team:
   - Name: `Online Banking`
-  - Add agents from different departments to this team as applicable.
 
-📸 *Screenshot: Teams list page*  
-📸 *Screenshot: Online Banking team configuration (with members)*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/3e003bbd-8b46-474e-8cc5-a61ea5bc72ae" />
+ 
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/32280c7d-53d7-47e4-adca-46edf700d0b6" />
+
 
 
 ### 6. Configure User Settings (Ticket Creation Requirements)
