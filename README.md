@@ -156,8 +156,10 @@ This tutorial outlines the post-install configuration of the open-source help de
      - Grace Period: `8` hours
      - Schedule: `Business Hours`
 
-📸 *Screenshot: SLA list showing Sev-A, Sev-B, Sev-C*  
-📸 *Screenshot: SLA configuration screen for one plan*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/fab3ec38-5017-42f1-8590-de84a3ade650" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/30e57f3f-760e-4d7b-9b26-fb2fcf4c4df6" />
+
 
 
 ### 10. Configure Help Topics (Ticket Categories)
