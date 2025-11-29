@@ -132,10 +132,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Switch to: **Agent Panel**
 - Go to: **Users → Add New**
 - Create a user (lab example):
-  - User 1: `Karen`
+  - User: `Karen`
 - Provide email address and any required details.
 
 <img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/9688cc8e-b806-45d2-9ca9-a7b98eb7740f" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/dbf494f9-ceb2-4cd5-9a60-59f979c2fa77" />
 
 
 ### 9. Configure SLAs (Service Level Agreements)
