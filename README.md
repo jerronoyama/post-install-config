@@ -119,9 +119,12 @@ This tutorial outlines the post-install configuration of the open-source help de
     - Name: `John`
     - Department: `Support` (create `Support` department if needed).
 
-📸 *Screenshot: Add New Agent form for Jane*  
-📸 *Screenshot: Add New Agent form for John*  
-📸 *Screenshot: Agents list showing Jane and John*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/a8ba77de-ed40-4a8b-ac17-c3006d98da35" />
+ 
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/a3557c0b-d32b-4829-8eca-8369e817316e" />
+ 
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/7870410e-acb9-4e90-b6a0-74b29629127c" />
+
 
 
 ### 8. Configure Users (End Users / Customers)
