@@ -174,8 +174,10 @@ This tutorial outlines the post-install configuration of the open-source help de
   - `Password Reset`
   - `Other`
 
-📸 *Screenshot: Help Topics list with all topics*  
-📸 *Screenshot: Add New Help Topic form*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/43589fd3-5564-41ed-8d2a-a3a063c4c611" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/688b2254-f6cb-4e9b-b5e9-5568c4aafdf4" />
+
 
 
 ### 11. Validate Configuration
