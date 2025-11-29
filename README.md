@@ -31,26 +31,145 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### 1. Access osTicket Panels
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Admin/Analyst Login Page: `http://localhost/osTicket/scp/login.php`
+- End User Portal: `http://localhost/osTicket/`
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+📸 *Screenshot: osTicket agent login page (`/scp/login.php`)*  
+📸 *Screenshot: End user portal home page (`/osTicket/`)*
+
+
+### 2. Understand Agent Panel vs Admin Panel
+
+- After logging in as an admin/agent, note:
+  - **Agent Panel**: Used for working tickets (viewing, responding, managing assignments).
+  - **Admin Panel**: Used to configure the system (settings, roles, departments, SLAs, etc.).
+- Switch between them using the links usually found at the top-right (e.g., "Admin Panel" / "Agent Panel").
+
+📸 *Screenshot: Agent Panel home view*  
+📸 *Screenshot: Admin Panel home view*
+
+
+### 3. Configure Roles (Grouping Permissions)
+
+- Go to: **Admin Panel → Agents → Roles**
+- Click **"Add New Role"**.
+- Create a role:
+  - Name: `Supreme Admin`
+  - Configure permissions as needed (full permissions for lab purposes).
+
+📸 *Screenshot: Roles list page*  
+📸 *Screenshot: Supreme Admin role permissions screen*
+
+
+### 4. Configure Departments (Ticket Visibility & Ownership)
+
+- Go to: **Admin Panel → Agents → Departments**
+- Click **"Add New Department"**.
+- Create a department:
+  - Name: `SysAdmins`
+  - Adjust visibility, email settings, and assignment settings as needed.
+
+📸 *Screenshot: Departments list page*  
+📸 *Screenshot: Creating SysAdmins department*
+
+
+### 5. Configure Teams (Cross-Department Groups)
+
+- Go to: **Admin Panel → Agents → Teams**
+- Click **"Add New Team"**.
+- Create a team:
+  - Name: `Online Banking`
+  - Add agents from different departments to this team as applicable.
+
+📸 *Screenshot: Teams list page*  
+📸 *Screenshot: Online Banking team configuration (with members)*
+
+
+### 6. Configure User Settings (Ticket Creation Requirements)
+
+- Go to: **Admin Panel → Settings → User Settings**
+- Adjust user creation and ticket creation behavior:
+  - Review the setting for **"Require registration and login to create tickets"** or **"unregistered users can create tickets"**.
+  - For the lab, configure according to the instructions (e.g., **registration required** or allow anyone depending on your scenario).
+
+📸 *Screenshot: User Settings page with ticket creation options*
+
+
+### 7. Configure Agents (Help Desk Staff)
+
+- Go to: **Admin Panel → Agents → Add New**
+- Create agents (lab example):
+  - Agent 1:
+    - Name: `Jane`
+    - Department: `SysAdmins`
+    - Assign appropriate role (e.g., `Supreme Admin` or another role if configured).
+  - Agent 2:
+    - Name: `John`
+    - Department: `Support` (create `Support` department if needed).
+
+📸 *Screenshot: Add New Agent form for Jane*  
+📸 *Screenshot: Add New Agent form for John*  
+📸 *Screenshot: Agents list showing Jane and John*
+
+
+### 8. Configure Users (End Users / Customers)
+
+- Switch to: **Agent Panel**
+- Go to: **Users → Add New**
+- Create users (lab example):
+  - User 1: `Karen`
+  - User 2: `Ken`
+- Provide email addresses and any required details.
+
+📸 *Screenshot: Add New User form*  
+📸 *Screenshot: Users list showing Karen and Ken*
+
+
+### 9. Configure SLAs (Service Level Agreements)
+
+- Switch back to: **Admin Panel**
+- Go to: **Manage → SLA**
+- Click **"Add New SLA Plan"** and create:
+
+  1. `Sev-A`
+     - Grace Period: `1` hour
+     - Schedule: `24/7`
+  2. `Sev-B`
+     - Grace Period: `4` hours
+     - Schedule: `24/7`
+  3. `Sev-C`
+     - Grace Period: `8` hours
+     - Schedule: `Business Hours`
+
+📸 *Screenshot: SLA list showing Sev-A, Sev-B, Sev-C*  
+📸 *Screenshot: SLA configuration screen for one plan*
+
+
+### 10. Configure Help Topics (Ticket Categories)
+
+- Go to: **Admin Panel → Manage → Help Topics**
+- Click **"Add New Help Topic"**.
+- Create the following help topics:
+
+  - `Business Critical Outage`
+  - `Personal Computer Issues`
+  - `Equipment Request`
+  - `Password Reset`
+  - `Other`
+
+📸 *Screenshot: Help Topics list with all topics*  
+📸 *Screenshot: Add New Help Topic form*
+
+
+### 11. Validate Configuration
+
+- Go to the **End User Portal**: `http://localhost/osTicket/`
+- Start creating a new ticket and confirm:
+  - The configured **Help Topics** appear in the dropdown.
+- Log in as an agent and confirm:
+  - Departments, Teams, Roles, SLAs, Agents, and Users appear as configured.
+
+📸 *Screenshot: New ticket form showing Help Topics*  
+📸 *Screenshot: Agent view of tickets with SLA/Departments visible*
