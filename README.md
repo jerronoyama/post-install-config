@@ -49,8 +49,10 @@ This tutorial outlines the post-install configuration of the open-source help de
   - **Admin Panel**: Used to configure the system (settings, roles, departments, SLAs, etc.).
 - Switch between them using the links usually found at the top-right (e.g., "Admin Panel" / "Agent Panel").
 
-📸 *Screenshot: Agent Panel home view*  
-📸 *Screenshot: Admin Panel home view*
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/5cef0854-7e9f-46f6-8f13-952d9e324864" />
+
+<img width="1792" height="1120" alt="image" src="https://github.com/user-attachments/assets/85645bba-364e-4214-9899-bd01fc210208" />
+
 
 
 ### 3. Configure Roles (Grouping Permissions)
